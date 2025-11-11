@@ -1,0 +1,5 @@
+package com.example.weather.exception;
+
+public class ApiKeyException extends WeatherSdkException {
+    public ApiKeyException(String message) { super(message); }
+}
